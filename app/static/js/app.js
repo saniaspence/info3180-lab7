@@ -40,6 +40,14 @@ const Home = Vue.component('home', {
     }
 });
 
+// const Upload = Vue.component('upload-form',{
+//   template:
+
+//   <div class = "form">
+//       <form method = "POST" enctype = "multipart/form-data" @submit.prevent = "uploadPhoto" id = "uploadForm">
+
+// }
+
 const NotFound = Vue.component('not-found', {
     template: `
     <div>
